@@ -1,7 +1,0 @@
-New game
-Exit
-Back
-Save
-Load
-Looser
-Your score is : 
