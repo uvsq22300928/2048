@@ -168,7 +168,7 @@ def play():
                          text=back_text,
                          fg_color='#EDC22E',
                          text_color='white',
-                         command=perdu,
+                         command=home_page,
                          font=police,
                          hover_color='#F59563')
     enregistrer = ctk.CTkButton(master=app,
@@ -595,7 +595,7 @@ def toggle_audio():
         musique.configure(image=theme_musique_off)
         musique_lecture = False
     else:
-        pygame.mixer.music.play(-1)
+        pygame.mixer.music.play(-1)  # jouer la musique en boucle
         musique.configure(image=theme_musique_on)
         musique_lecture = True
 
